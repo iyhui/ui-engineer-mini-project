@@ -1,0 +1,78 @@
+// CHARACTERS List Page
+
+// Search
+
+.search{
+    padding-bottom: 80px;
+}
+
+input{
+    width: 76%; //cal from 768px/1004px
+    height: 43px;
+    overflow: hidden;
+    float: left;
+    font-family: 'Gotham Pro', sans-serif;
+    font-size: 16px;
+}
+
+.btn{
+    background-color: #7B68EE;
+    width: 21%; //cal from 212px/1004px
+    height: 43px;
+    float: right;
+    font-family: 'Gotham Pro', sans-serif;
+    font-size: 18px;
+}
+
+// Table
+
+.table>:not(caption)>*>* {
+    background-color:inherit;
+}
+
+// List
+
+.list-item {
+    background-color:#2B343B;
+    font-family: 'Gotham Pro', sans-serif;
+    border-radius: 3px;
+}
+
+.list-item td{
+    padding: 8px 16px 0s;
+}
+
+.name{
+    font-size: 16px;
+}
+
+.species, .status, .gender{
+    font-size: 14px;
+    width: 160px;
+}
+
+.list-item:hover{
+    background-color:#384047;
+    border-color: #384047;
+    color: #7B68EE;
+}
+
+//page numbering on the bottom
+
+.page-num-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    margin: 0 auto 80px;
+}
+
+.page-number {
+    font-family: 'Gotham Pro', sans-serif;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.page-number:hover {
+    color:#7B68EE;
+}
+

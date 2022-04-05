@@ -1,0 +1,42 @@
+.list-item {
+  background-color: #2B343B;
+  border: #384047;
+  font-family: 'Gotham Pro', sans-serif;
+}
+
+.list-item .name {
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.list-item .episode {
+  font-size: 14px;
+  width: 80px;
+}
+
+.table > :not(caption) > * > * {
+  background-color: inherit;
+}
+
+.page-num-container {
+  width: 16%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 16px;
+  margin: 0 auto 80px;
+}
+
+.page-number {
+  font-family: 'Gotham Pro', sans-serif;
+  color: #FFF;
+  font-size: 14px;
+}
+
+.page-number:hover {
+  color: #7B68EE;
+}
+/*# sourceMappingURL=episodes.component.css.map */

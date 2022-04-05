@@ -1,0 +1,57 @@
+.header {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header h1 {
+  font-family: 'Gotham Pro', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  height: 260px;
+  color: #292D34;
+  text-align: center;
+  padding-top: 112px;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.menu {
+  background-color: #1E272E;
+}
+
+.navbar {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 48px;
+}
+
+img {
+  padding-top: 16px;
+}
+
+a {
+  margin: 0 24px;
+  font-family: 'Gotham Pro', sans-serif;
+}
+
+.nav-style {
+  font-size: 32px;
+  color: #ABAEB0;
+  text-decoration: none;
+}
+
+.nav-style-active {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+/*# sourceMappingURL=app.component.css.map */

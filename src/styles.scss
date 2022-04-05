@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('http://fonts.cdnfonts.com/css/gotham-pro');
+
+
+$global-bg: #1E272E;
+$default-item-bg: #2B343B;
+$hover-item-bg: #384047;
+$click-purple: #7B68EE; //button & text
+$h1-text: #292D34;
+
+body,html {
+    background-color:#1E272E;
+}
+

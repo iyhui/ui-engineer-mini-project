@@ -1,1 +1,42 @@
-div.individual div.card { margin: 0px auto; width: 300px; }
+//CARD for each character
+
+//Card
+
+div.individual div.card { 
+    margin: 0px auto; 
+    border-radius: 3px;
+    background-color: #2B343B;
+    width:613px !important;
+    height: 540px !important;
+    padding: 3% 5%;
+    border-radius: 10px !important;
+    margin-bottom: 160px;
+}
+
+//Image
+.card-img-top{
+    border-radius: 100px !important;
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+}
+
+//Title
+.card-title{
+    font-family: 'Gotham Pro', sans-serif;
+    font-size: 36px;
+    margin: 16px auto;
+    color: white;
+}
+
+//Details
+.card-subtitle{
+    font-family: 'Gotham Pro', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+//Spacing to the detail items
+.card-subtitle span{
+    margin: auto 4px !important;
+}

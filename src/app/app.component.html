@@ -1,7 +1,12 @@
-<h1>The Rick and Morty</h1>
 
-<a routerLink="/characters" [queryParams]="{ fromPage : characterPage, nameSearch : characterNameSearch }" class="nav-link">Characters</a>
+<div class="header">
+    <img src="./assets/hero image.png"/>
+    <h1>The Rick and Morty</h1>
+</div>
 
-<a routerLink="/episodes" class="nav-link">Episode Guide</a>
 
+<nav class="navbar">
+<a routerLink="/characters" [queryParams]="{ fromPage : characterPage, nameSearch : characterNameSearch }" class="nav-style" routerLinkActive="nav-style-active">Characters</a>
+<a routerLink="/episodes" class="nav-style" routerLinkActive="nav-style-active">Episode Guide</a>
+</nav>
 <router-outlet></router-outlet>
